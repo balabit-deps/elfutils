@@ -45,7 +45,7 @@ AC_COPYRIGHT([Copyright (C) 1996-2018 The elfutils developers.])
 AC_PREREQ(2.63)			dnl Minimum Autoconf version required.
 
 dnl We use GNU make extensions; automake 1.10 defaults to -Wportability.
-AM_INIT_AUTOMAKE([gnits 1.11 -Wno-portability dist-bzip2 no-dist-gzip parallel-tests])
+AM_INIT_AUTOMAKE([gnits 1.11 -Wno-portability parallel-tests])
 AM_MAINTAINER_MODE
 
 AM_SILENT_RULES([yes])
