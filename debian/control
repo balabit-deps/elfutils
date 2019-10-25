@@ -1,0 +1,18 @@
+Source: libelf
+Priority: extra
+Maintainer: syslog-ng developers <syslog-ng@lists.balabit.hu>
+Build-Depends: pkg-config
+Standards-Version: 3.7.2
+Section: libs
+
+Package: libelf
+Architecture: any
+Description: libelf
+
+Package: libelf-dev
+Architecture: any
+Description: libelf-dev
+
+Package: libelf-dbg
+Architecture: any
+Description: libelf-dbg

@@ -1,0 +1,5 @@
+libelf (0.177-1.syslogng70) syslogng70; urgency=medium
+
+  * initial release
+
+ -- Laszlo Varady <laszlo.varady@balabit.com>  Fri, 25 Oct 2019 10:55:10 +0200
