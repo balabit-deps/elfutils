@@ -6,4 +6,3 @@ builder:
   flags: "make-dist-need-make"
 platforms:
   - linux-glibc2.11/amd64
-  - ubuntu-bionic/amd64
