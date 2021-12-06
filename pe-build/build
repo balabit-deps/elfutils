@@ -1,0 +1,21 @@
+source="libelf"
+version=0.177-pe-1
+dependencies=(
+  'zlib' 'zlib-dev'
+)
+
+bootstrap() {
+  autoreconf -iv
+}
+
+build() {
+  cd "${build_dir}"
+  ${src_dir}/configure CFLAGS="$CFLAGS -Wno-shadow" \
+    --enable-deterministic-archives --enable-maintainer-mode --prefix="${prefix}"
+
+  make
+}
+
+install() {
+  make -C "${build_dir}" DESTDIR="${dest_dir}" install
+}

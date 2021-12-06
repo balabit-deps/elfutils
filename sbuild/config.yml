@@ -1,0 +1,8 @@
+name: libelf
+builder:
+  name: AutotoolsBuilder
+  configure_options: --enable-deterministic-archives --enable-maintainer-mode
+  make_options: -j4
+  flags: "make-dist-need-make"
+platforms:
+  - linux-glibc2.11/amd64
